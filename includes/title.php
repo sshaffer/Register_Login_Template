@@ -9,3 +9,4 @@ if ($title == 'redirect') {
 	$title = 'please login';
 }
 $title = ucwords($title);
+?>
