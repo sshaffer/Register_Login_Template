@@ -1,4 +1,4 @@
-Register, Activation, Login Website Template
+Register, Activation, Login Template
 =======================
 
-A PHP MySQL based registration, e-mail activation, and login template site. 
+A PHP MySQL based registration, e-mail activation, and login template website. 
