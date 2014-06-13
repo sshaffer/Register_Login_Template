@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+	/* Resets */
+ul {
+    padding:0;
+    margin:0 0 20px 0;
+    list-style:none;
+}
+h1, h2 {
+    padding:0;
+    margin:0 0 20px 0;
+    font-weight:normal;
+}
+p {
+    padding:0;
+    margin:0 0 20px 0;
+}
+a:link, a:visited {
+    text-decoration:underline;
+    color:#000;
+}
+a:hover {
+    text-decoration:none;
+}
+ul li {
+    padding:5px 0;
+}
+ul li input[type="text"], ul li input[type="password"] {
+    width:200px;
+}
+/* Headers */
+h1 {
+    font-size:1.8em;
+}
+h2 {
+    font-size:1.4em;
+}
+.logo {
+    font:2em Arial;
+    margin:0 0 10px 0;
+    padding:0;
+    width:200px;
+    color:#fff;
+}
+/* Containers */
+body {
+    background: url(trianglify.svg) no-repeat;
+    
+    font-family:Arial;
+    font-size:0.8em;
+}
+#container, footer {
+    background:#fff;
+    opacity: 0.8;
+    width:80%;
+    margin:0 auto;
+    padding:20px;
+}
+
+header {
+    width:82%;
+    padding:10px;
+    margin:0 auto 10px auto;
+}
+
+#container {
+    min-height:450px;
+    border-radius:5px 5px 0 0;
+}
+footer {
+    border-radius:0 0 5px 5px;
+}
+.widget {
+    margin-bottom:20px;
+}
+.widget h2 {
+    margin:0 0 10px 0;
+    padding:0 5px;
+    font-weight:normal;
+    border-bottom:1px solid #ddd;
+}
+.widget .inner {
+    margin:0 10px;
+}
+/* Navigation */
+nav {
+    float:left;
+}
+nav ul {
+    margin:0;
+}
+nav ul li {
+    display:inline;
+    margin-right:10px;
+}
+nav ul li a {
+    text-decoration:none;
+}
+nav ul li.current {
+    font-weight:bold;
+}
+nav ul li a.last {
+    border-right:0;
+}
+/* Aside */
+aside {
+    width:30%;
+    float:right;
+    border-left:1px dashed #aaa;
+    padding-left:15px;
+}
+
+/* Login */
+#login li.link {
+    margin-top:5px;
+}
+/* Footer */
+footer {
+    border-top:1px dashed #ddd;
+    color:#999;
+}
+/* Misc */
+.clear {
+    clear:both;
+}
+
+/* Username validation styles */
+
+.success{
+	color:#009900;
+}
+.error{
+	color:#F33C21;
+}
+.username_avail_result{
+	display:block;
+	width:180px;
+}
+.password_strength {
+	display:block;
+	width:180px;
+	padding:3px;
+	text-align:center;
+	color:#333;
+	font-size:12px;
+	backface-visibility:#FFF;
+	font-weight:bold;
+}
+/* Password strength indicator classes weak, normal, strong, verystrong*/
+.password_strength.weak{
+	background:#e84c3d;
+}
+.password_strength.normal{
+	background:#f1c40f;
+}
+.password_strength.strong{
+	background:#27ae61;
+}
+.password_strength.verystrong{
+	background:#2dcc70;
+	color:#FFF;
+}
+
+/* Media Style */
+
+@media screen and (max-width: 960px) {
+
+#container, footer {
+    width: 100%; 
+    padding: 5px;
+    }
+
+header {
+    width: 100%;
+    padding: 5px; 
+    }
+
+    aside {
+    clear:both;
+    height: 300px;
+    width: 100%; 
+    border: none;
+    padding: 5px;
+    }
+
+}
