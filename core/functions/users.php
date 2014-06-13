@@ -9,7 +9,7 @@ function recover($mode, $email) {
 
 	if ($mode == 'username') {
 		//recover username
-		email($email, 'Your username', "Hello ". $user_data['first_name'] .", \n\n Your username is: ". $user_data['username']. " \n\n -The Lab @ stephenshaffer.net");
+		email($email, 'Your username', "Hello ". $user_data['first_name'] .", \n\n Your username is: ". $user_data['username']. " \n\n -Thanks");
 
 	} else if ($mode == 'password') {
 		//recover password
